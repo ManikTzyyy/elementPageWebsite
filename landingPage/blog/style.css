@@ -1,0 +1,221 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .nav-bar ul li {
+    margin-right: 20px;
+}
+
+header .nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Blog Section */
+.blog {
+    padding: 40px 20px;
+}
+
+.blog h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Search Bar */
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 600px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+/* Blog Posts */
+.blog-posts {
+    margin-bottom: 40px;
+}
+
+.blog-posts .post {
+    margin-bottom: 30px;
+}
+
+.blog-posts .post h3 a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-posts .post .meta {
+    font-size: 14px;
+    color: #888;
+}
+
+.blog-posts .post .excerpt {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.blog-posts .post .read-more {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.blog-posts .post .read-more:hover {
+    text-decoration: underline;
+}
+
+/* Categories and Tags */
+.categories, .tags {
+    margin-bottom: 40px;
+}
+
+.categories h3, .tags h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.categories ul, .tags ul {
+    list-style-type: none;
+}
+
+.categories ul li, .tags ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.categories ul li a, .tags ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.categories ul li a:hover, .tags ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Comment Section */
+.comments {
+    margin-bottom: 40px;
+}
+
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.comment-form button:hover {
+    background-color: #555;
+}
+
+/* Related Posts */
+.related-posts {
+    margin-top: 40px;
+}
+
+.related-posts h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.related-posts ul {
+    list-style-type: none;
+}
+
+.related-posts ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.related-posts ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.related-posts ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

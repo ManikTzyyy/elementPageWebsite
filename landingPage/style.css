@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .nav-bar ul li {
+    margin-right: 20px;
+}
+
+header .nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .contact-info {
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.features .feature {
+    width: 30%;
+    text-align: center;
+}
+
+.features .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonials h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .contact-footer p,
+footer .social-footer a,
+footer .legal-footer a {
+    margin: 10px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-footer a:hover,
+footer .legal-footer a:hover {
+    text-decoration: underline;
+}
+
+footer .newsletter-footer form {
+    margin-top: 20px;
+}
+
+footer .newsletter-footer input {
+    padding: 10px;
+    font-size: 14px;
+    width: 250px;
+}
+
+footer .newsletter-footer button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer .back-to-top button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer .back-to-top button:hover {
+    background-color: #218838;
+}
+
+/* Language Switcher */
+.language-switcher {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.language-switcher select {
+    background-color: white;
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+/* Sticky Navigation */
+header nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .nav-bar ul li {
+    margin-right: 20px;
+}
+
+header .nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Company Overview Section */
+.company-overview {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.company-overview h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Mission, Vision, and Values Section */
+.mission-vision-values {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.mission-vision-values .mission,
+.mission-vision-values .vision,
+.mission-vision-values .values {
+    width: 30%;
+    text-align: center;
+}
+
+.mission-vision-values h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mission-vision-values p {
+    font-size: 18px;
+}
+
+.mission-vision-values ul {
+    list-style-type: none;
+}
+
+.mission-vision-values ul li {
+    font-size: 16px;
+}
+
+/* Team Members Section */
+.team {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+}
+
+.team-member h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.certifications h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.certifications ul {
+    list-style-type: none;
+}
+
+.certifications ul li {
+    font-size: 18px;
+}
+
+/* Social Responsibility Section */
+.social-responsibility {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-responsibility h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.social-responsibility p {
+    font-size: 18px;
+}
+
+/* Press Mentions Section */
+.press-mentions {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.press-mentions h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.press-mentions ul {
+    list-style-type: none;
+}
+
+.press-mentions ul li {
+    font-size: 18px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .contact-footer p,
+footer .social-footer a,
+footer .legal-footer a {
+    margin: 10px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-footer a:hover,
+footer .legal-footer a:hover {
+    text-decoration: underline;
+}

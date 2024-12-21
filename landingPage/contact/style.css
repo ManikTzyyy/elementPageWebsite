@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .nav-bar ul li {
+    margin-right: 20px;
+}
+
+header .nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.contact-form h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Location Map */
+.location-map {
+    margin-bottom: 40px;
+}
+
+.location-map h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+/* Social Media & Contact Info */
+.social-contact {
+    margin-bottom: 40px;
+}
+
+.social-contact h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-contact ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-contact ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-contact ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Live Chat */
+.live-chat {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.live-chat h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.live-chat .chat-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.live-chat .chat-btn:hover {
+    background-color: #555;
+}
+
+/* Business Hours */
+.business-hours {
+    margin-bottom: 40px;
+}
+
+.business-hours h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.business-hours ul {
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.business-hours ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .contact-footer p,
+footer .social-footer a,
+footer .legal-footer a {
+    margin: 10px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-footer a:hover,
+footer .legal-footer a:hover {
+    text-decoration: underline;
+}

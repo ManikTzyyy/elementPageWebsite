@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>MyBrand</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="../../landingPage/">Home</a></li>
+                <li><a href="./about/">About</a></li>
+                <li><a href="./service/">Services</a></li>
+                <li><a href="./blog/">Blog</a></li>
+                <li><a href="./contact/">Contact</a></li>
+                <li><a href="./privacy-term/">Privacy Policy</a></li>
+                <li><a href="../">Element full</a></li>
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <p>Email: info@mybrand.com | Phone: +123456789</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to MyBrand!</h2>
+        <p>Your trusted partner for all things tech.</p>
+        <button>Get Started</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h3>Service 1</h3>
+            <p>Description of service 1</p>
+        </div>
+        <div class="feature">
+            <h3>Service 2</h3>
+            <p>Description of service 2</p>
+        </div>
+        <div class="feature">
+            <h3>Service 3</h3>
+            <p>Description of service 3</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h3>What our clients say</h3>
+        <p>"Amazing service! Highly recommend." - Client A</p>
+        <p>"Exceptional quality and support." - Client B</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="contact-footer">
+            <p>Email: info@mybrand.com | Phone: +123456789</p>
+        </div>
+        <div class="social-footer">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        <div class="legal-footer">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+        <div class="newsletter-footer">
+            <form>
+                <input type="email" placeholder="Subscribe to our newsletter">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="back-to-top">
+            <button onclick="scrollToTop()">Back to Top</button>
+        </div>
+    </footer>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <select>
+            <option>English</option>
+            <option>Spanish</option>
+        </select>
+    </div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Website Elements Showcase</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Complete Website Elements Showcase</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#hero">Hero</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#audio-video">Audio & Video</a></li>
+        <li><a href="#list">Lists</a></li>
+        <li><a href="#progress">Progress Bar</a></li>
+        <li><a href="#iframe">Iframe</a></li>
+        <li><a href="#modal">Modal</a></li>
+        <li><a href="./landingPage/">Landing Page</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <ul>
+        <li><a href="#hero">Hero</a></li>
+        <li><a href="#carousel">Carousel</a></li>
+        <li><a href="#table">Table</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <section id="hero" class="hero">
+        <h2>Hero Section</h2>
+        <p>Welcome to our website! Explore all the elements showcased here.</p>
+      </section>
+
+      <section id="breadcrumb">
+        <h2>Breadcrumb</h2>
+        <ul class="breadcrumb">
+          <li>Home</li>
+          <li>Elements</li>
+          <li>Breadcrumb</li>
+        </ul>
+      </section>
+
+      <section id="looping">
+        <div class="wrapper">
+          <div class="itemLeft item1"></div>
+          <div class="itemLeft item2"></div>
+          <div class="itemLeft item3"></div>
+          <div class="itemLeft item4"></div>
+          <div class="itemLeft item5"></div>
+          <div class="itemLeft item6"></div>
+          <div class="itemLeft item7"></div>
+          <div class="itemLeft item8"></div>
+        </div>
+        <div class="wrapper">
+          <div class="itemRight item1"></div>
+          <div class="itemRight item2"></div>
+          <div class="itemRight item3"></div>
+          <div class="itemRight item4"></div>
+          <div class="itemRight item5"></div>
+          <div class="itemRight item6"></div>
+          <div class="itemRight item7"></div>
+          <div class="itemRight item8"></div>
+        </div>
+      </section>
+
+      <section id="carousel">
+        <h2>Carousel</h2>
+        <div class="carousel">
+          <div class="slides">
+            <div class="slide">Slide 1</div>
+            <div class="slide">Slide 2</div>
+            <div class="slide">Slide 3</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="accordion">
+        <h2>Accordion</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              Section 1
+            </div>
+            <div class="accordion-content">Content for section 1</div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              Section 2
+            </div>
+            <div class="accordion-content">Content for section 2</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="table">
+        <h2>Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Occupation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>30</td>
+              <td>Developer</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>25</td>
+              <td>Designer</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="form">
+        <h2>Form</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" placeholder="Your message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="audio-video">
+        <h2>Audio & Video</h2>
+        <h3>Audio Player</h3>
+        <audio controls>
+          <source
+            src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+        <h3>Video Player</h3>
+        <video controls width="600">
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="list">
+        <h2>Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Plan</li>
+          <li>Design</li>
+          <li>Develop</li>
+          <li>Test</li>
+        </ol>
+      </section>
+
+      <section id="progress">
+        <h2>Progress Bar</h2>
+        <div class="progress-bar">
+          <span style="width: 70%"></span>
+        </div>
+        <p>70% Complete</p>
+      </section>
+
+      <section id="iframe">
+        <h2>Iframe</h2>
+        <iframe
+          src="https://maniktzyyy.github.io/manikyo/"
+          width="100%"
+          height="400"
+          style="border: 1px solid #ddd"
+        ></iframe>
+      </section>
+
+      <section id="modal">
+        <h2>Modal</h2>
+        <button onclick="showModal()">Open Modal</button>
+        <div id="modalElement" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="hideModal()">&times;</span>
+            <!-- Tombol close -->
+            <h3>Modal Content</h3>
+            <p>This is a modal window.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Blockquote</h2>
+        <blockquote>
+          "The best way to predict the future is to invent it." - Alan Kay
+        </blockquote>
+      </section>
+    </div>
+
+    <footer>
+      <p>Footer Information © 2024</p>
+    </footer>
+
+    <script>
+      // Fungsi untuk toggle accordion
+      function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        content.style.display =
+          content.style.display === "block" ? "none" : "block";
+      }
+
+      // Fungsi untuk menampilkan modal
+      function showModal() {
+        document.getElementById("modalElement").classList.add("show");
+      }
+
+      // Fungsi untuk menyembunyikan modal
+      function hideModal() {
+        document.getElementById("modalElement").classList.remove("show");
+      }
+
+      // Carousel
+      document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelector(".slides");
+        const slideCount = document.querySelectorAll(".slide").length;
+        let currentIndex = 0;
+
+        function moveToNextSlide() {
+          currentIndex = (currentIndex + 1) % slideCount;
+          updateCarouselPosition();
+        }
+
+        function updateCarouselPosition() {
+          const offset = -currentIndex * 100; // Move slides based on index
+          slides.style.transform = `translateX(${offset}%)`;
+        }
+
+        // Set an interval to change slides every 3 seconds
+        setInterval(moveToNextSlide, 3000); // Change slide every 3 seconds
+      });
+    </script>
+  </body>
+</html>
