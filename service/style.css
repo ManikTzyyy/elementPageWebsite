@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.packages-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+ul li {
+    font-size: 0.9rem;
+    color: #333333;
+    margin: 8px 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.pro-package {
+    background-color: #f0f9ff;
+    border: 2px solid #007bff;
+}
+
+.no-hosting {
+    background-color: #fffbea;
+    border: 2px dashed #f4a261;
+}
+
+.no-hosting:hover {
+    background-color: #fff2d5;
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(244, 162, 97, 0.3);
+}
