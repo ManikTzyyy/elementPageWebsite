@@ -1,13 +1,14 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
   margin: 0;
   padding: 20px 0;
+ 
 }
 
 .packages-container {
@@ -15,9 +16,12 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+ 
 }
 
 .service-card {
+    height: 500px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -32,11 +36,6 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.service-icon {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 15px;
-}
 
 h2 {
   font-size: 1.6rem;
